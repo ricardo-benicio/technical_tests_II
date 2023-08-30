@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>b5d3cf50-b583-4cf3-8302-a2954f801bb9.TABLE:web_system.teste.awards</OriginalElement>
+  <nodes>
+    <node x="166.0" y="-68.0">b5d3cf50-b583-4cf3-8302-a2954f801bb9.TABLE:web_system.teste.events</node>
+    <node x="-165.0" y="-62.0">b5d3cf50-b583-4cf3-8302-a2954f801bb9.TABLE:web_system.teste.users</node>
+    <node x="8.5" y="89.0">b5d3cf50-b583-4cf3-8302-a2954f801bb9.TABLE:web_system.teste.awards</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="b5d3cf50-b583-4cf3-8302-a2954f801bb9.TABLE:web_system.teste.awards" target="b5d3cf50-b583-4cf3-8302-a2954f801bb9.TABLE:web_system.teste.users" relationship="REFERENCES">
+      <point x="-35.25" y="-62.0" />
+      <point x="43.75" y="64.0" />
+      <point x="-94.0" y="64.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="b5d3cf50-b583-4cf3-8302-a2954f801bb9.TABLE:web_system.teste.awards" target="b5d3cf50-b583-4cf3-8302-a2954f801bb9.TABLE:web_system.teste.events" relationship="REFERENCES">
+      <point x="35.25" y="-62.0" />
+      <point x="114.25" y="64.0" />
+      <point x="241.0" y="64.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="81.0" y="75.5" />
+  <SelectedNodes>
+    <node>b5d3cf50-b583-4cf3-8302-a2954f801bb9.TABLE:web_system.teste.events</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
